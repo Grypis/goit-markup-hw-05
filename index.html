@@ -533,18 +533,27 @@
         </div>
         <div class="page-footer-subscribe">
           <p class="page-footer-subscribe-text">Subscribe</p>
-          <input
-            type="email"
-            class="page-footer-subscribe-input"
-            name="user-email"
-            placeholder="E-mail"
-            required
-          />
-          <button class="page-footer-subscribe-btn" type="submit">Subscribe
-            <svg class="page-footer-subscribe-btn-icon" width="24" height="20">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
+          <form class="page-footer-subscribe-form" action="">
+            <label class="page-footer-subscribe-label" for="">
+              <input
+                type="email"
+                class="page-footer-subscribe-input"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+              <button class="page-footer-subscribe-btn" type="submit">
+                Subscribe
+                <svg
+                  class="page-footer-subscribe-btn-icon"
+                  width="24"
+                  height="20"
+                >
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </label>
+          </form>
         </div>
       </div>
     </footer>
