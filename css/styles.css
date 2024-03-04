@@ -731,6 +731,10 @@ body {
   fill: #4d5ae5;
 }
 
+.review-form-field-textarea {
+  margin-bottom: 16px;
+}
+
 .review-form-comment {
   font-size: 12px;
   line-height: 1.17;
