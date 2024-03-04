@@ -13,6 +13,7 @@ button {
   cursor: pointer;
   display: block;
   border: none;
+  margin: 0;
 }
 
 a {
@@ -494,6 +495,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-right: 80px;
 }
 
 .page-footer-text-links {
@@ -535,6 +537,61 @@ body {
 .page-footer-icons {
   fill: #f4f4fd;
 }
+
+.page-footer-subscribe {}
+
+.page-footer-subscribe-text {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.page-footer-subscribe-input {
+  border: 1px solid #fff;
+    border-radius: 4px;
+    min-width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-left: 16px;
+      font-size: 12px;
+      line-height: 2;
+      letter-spacing: 0.04em;
+      color: #fff;
+      margin-right: 23px;
+}
+
+.page-footer-subscribe-input::placeholder {
+  color: #ffffff;
+}
+
+.page-footer-subscribe-btn {
+  display: inline-flex;
+ justify-content: end;
+ flex-direction: row;
+  border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      text-align: center;
+      color: #fff;
+}
+
+.page-footer-subscribe-btn-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
+.page-footer-subscribe-btn:hover,
+.page-footer-subscribe-btn:focus {
+  background-color: #404bbf;
+}
 /* ======================= /Footer ========================= */
 
 /* ======================= Backdrop ========================= */
@@ -547,15 +604,16 @@ body {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
 
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  transition: opacity 250ms linear, visibility 250ms linear; */
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
-/* 
-.backdrop.is-open {
+
+
+.backdrop.is-open  {
   opacity: 1;
   visibility: visible;
-} */
+}
 
 /* ======================= /Backdrop ========================= */
 

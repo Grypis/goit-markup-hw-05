@@ -70,7 +70,9 @@
       <section class="page-hero">
         <div class="page-hero-container container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="page-hero-btn" type="button">Order Service</button>
+          <button class="page-hero-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--Section Benefits-->
@@ -482,6 +484,7 @@
         </div>
       </section>
     </main>
+
     <!--Footer-->
     <footer class="page-footer">
       <div class="container container-footer">
@@ -528,12 +531,27 @@
             </li>
           </ul>
         </div>
+        <div class="page-footer-subscribe">
+          <p class="page-footer-subscribe-text">Subscribe</p>
+          <input
+            type="email"
+            class="page-footer-subscribe-input"
+            name="user-email"
+            placeholder="E-mail"
+            required
+          />
+          <button class="page-footer-subscribe-btn" type="submit">Subscribe
+            <svg class="page-footer-subscribe-btn-icon" width="24" height="20">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <!--Backdrop-->
-    <div class="backdrop">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="modal-close-btn" type="button" data-modal-close>
           <svg
             class="modal-close-btn-icon"
             width="8"
@@ -622,6 +640,7 @@
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
+              required
             ></textarea>
           </div>
           <div class="review-form-checkbox-wrapper">
@@ -651,5 +670,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
