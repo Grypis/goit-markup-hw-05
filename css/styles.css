@@ -495,7 +495,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .page-footer-text-links {
@@ -549,7 +549,7 @@ body {
 
 .page-footer-subscribe-form {
   display: flex;
-  gap: 24px;
+  
 }
 
 .page-footer-subscribe-input {
@@ -697,7 +697,7 @@ body {
 
 .review-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-input {
